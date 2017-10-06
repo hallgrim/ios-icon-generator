@@ -3,7 +3,8 @@
 ### Description
 ios-icon-generator is a shell script which aim to generate iOS APP icons easier and simply.
 ![image](https://github.com/smallmuou/ios-icon-generator/blob/master/ios-icon-generator.gif)
-<pre>
+
+```
 VERSION: 1.0.0
 USAGE:
     ./ios-icon-generator.sh srcfile dstpath
@@ -25,15 +26,13 @@ LICENSE:
 
 EXAMPLE:
     ./ios-icon-generator.sh 1024.png ~/123
-
-</pre>
+```
 
 ### Usage
 1. Install ImageMagick
-
 	Before you run this script, please check whether you had install ImageMagick. If you don't have install. Follow this:
-	```
-	brew install ImageMagick
+  ```
+  brew install ImageMagick
   ```
 
 2. Clone And Chmod
@@ -42,7 +41,7 @@ EXAMPLE:
 	cd ios-icon-generator
 	chmod 777 ios-icon-generator.sh
   ```
-  
+
 3. Run
   ```
   ./ios-icon-generator.sh ~/Downloads/1024.png ~/output

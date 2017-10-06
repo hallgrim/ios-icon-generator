@@ -42,6 +42,7 @@ EXAMPLE:
 	cd ios-icon-generator
 	chmod 777 ios-icon-generator.sh
   ```
+  
 3. Run
   ```
   ./ios-icon-generator.sh ~/Downloads/1024.png ~/output

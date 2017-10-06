@@ -32,21 +32,23 @@ EXAMPLE:
 1. Install ImageMagick
 
 	Before you run this script, please check whether you had install ImageMagick. If you don't have install. Follow this:
-	<pre>
-	brew install ImageMagick</pre>
+	```
+	brew install ImageMagick
+  ```
 
 2. Clone And Chmod
-	<pre>
+	```
 	git clone https://github.com/smallmuou/ios-icon-generator
 	cd ios-icon-generator
 	chmod 777 ios-icon-generator.sh
-	</pre>
+  ```
 3. Run
-	<pre>
+  ```
   ./ios-icon-generator.sh ~/Downloads/1024.png ~/output
-  </pre>
+  ```
 
-  <pre>
+4. Output
+  ```
   Generate iTunesArtwork.png ...
   Generate iTunesArtwork@2x.png ...
   Generate Icon-Small.png ...
@@ -67,8 +69,8 @@ EXAMPLE:
   Generate Icon-Small-50.png ...
   Generate Icon-Small-50@2x.png ...
   Generate Done.
-  </pre>
-  
+  ```
+
 PS: You can find out the icons in ~/output directory.
 
 ### Navigation bar items
